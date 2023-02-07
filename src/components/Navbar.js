@@ -10,27 +10,27 @@ const Navbar = () => {
       </div>
       <ul className="links flex flex-col gap-3">
         <li>
-          <HashLink smoooth to="home" className="link-item">
+          <HashLink smoooth to="#home" className="link-item">
             Home
           </HashLink>
         </li>
         <li>
-          <HashLink smoooth to="projects" className="link-item">
+          <HashLink smoooth to="#projects" className="link-item">
             Projects
           </HashLink>
         </li>
         <li>
-          <HashLink smoooth to="skills" className="link-item">
+          <HashLink smoooth to="#skills" className="link-item">
             Skills
           </HashLink>
         </li>
         <li>
-          <HashLink smoooth to="about" className="link-item">
+          <HashLink smoooth to="#about" className="link-item">
             About
           </HashLink>
         </li>
         <li>
-          <HashLink smoooth to="contact" className="link-item">
+          <HashLink smoooth to="#contact" className="link-item">
             Contact
           </HashLink>
         </li>
