@@ -1,8 +1,32 @@
 import { useRef } from "react";
 import SectionTitles from "./SectionTitles";
 import { useFormReveal } from "../hooks/gsap";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const formRef = useRef(null);
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    //emailjs integrations
+
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        formRef.current,
+        process.env.REACT_APP_PUBLIC_ID
+      )
+      .then(
+        () => {
+          console.log("Messege sent");
+        },
+        () => {
+          console.log("Messege Not Sent");
+        }
+      );
+  };
+
   const formRef1 = useRef(null);
   const formRef2 = useRef(null);
   const formRef3 = useRef(null);
@@ -16,7 +40,11 @@ const Contact = () => {
     <div className="contact container mx-auto mt-40">
       <SectionTitles title={"Contact"} />
 
-      <form className="mt-40 grid grid-cols-2 gap-20">
+      <form
+        onSubmit={sendEmail}
+        className="mt-40 grid grid-cols-2 gap-20"
+        ref={formRef}
+      >
         <div className="form-control overflow-hidden">
           <input
             type="text"

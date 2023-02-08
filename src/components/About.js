@@ -47,7 +47,7 @@ const About = () => {
             contribution to any team and drive projects to success.
           </p>
           <a
-            href="https://www,google.com"
+            href="https://docs.google.com/document/d/1jxZfuiL4ihGCugl8t2lpjAAY93otel9mi0ooSBsxD7g/edit?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="inline-block mt-10 uppercase py-8 px-14 border border-white/20 rounded-full hover:bg-rose-400/20 hover:border-rose-400/20 duration-500"

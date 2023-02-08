@@ -5,7 +5,7 @@ const data = [
   {
     id: 1,
     title: "Faceboook",
-    url: "https://wwww.google.com",
+    url: "https://www.facebook.com/mdmuntasir.fahim/",
   },
   {
     id: 2,
@@ -15,12 +15,12 @@ const data = [
   {
     id: 3,
     title: "Github",
-    url: "https://wwww.google.com",
+    url: "https://github.com/muntasir-fahii",
   },
   {
     id: 4,
     title: "Leetcode",
-    url: "https://wwww.google.com",
+    url: "https://leetcode.com/muntasir-fahim/",
   },
 ];
 
