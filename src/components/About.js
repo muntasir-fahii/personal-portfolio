@@ -19,16 +19,28 @@ const About = () => {
         <div className="about-left" ref={aboutLeftRef}></div>
         <div className="about-right">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-            illum dolor adipisci? Consequatur in nemo animi suscipit nisi,
-            similique mollitia id dicta illum totam ad, aliquid, eos architecto
-            tenetur quo.
+            I am Muntsir Fahim. As a versatile Front-End Developer, I bring a
+            unique blend of technical proficiency and leadership skills to the
+            table for creating outstanding websites. My expertise in JavaScript,
+            React.js, Tailwind CSS, Redux, Redux Toolkit, GSAP, WebGL, Axios,
+            and Firebase allows me to craft visually appealing and interactive
+            user interfaces that effectively communicate complex ideas. I am
+            always up-to-date with the latest advancements in the field and
+            constantly strive to improve my skills to deliver exceptional
+            results.
           </p>
           <p className="mt-10">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-            beatae sit quidem atque id sint, corporis, architecto temporibus
-            expedita, qui minus. Deleniti, omnis expedita maxime quasi odit eius
-            commodi quisquam!
+            In addition, I possess excellent teamwork and leadership abilities.
+            I understand the importance of collaboration and communication in
+            delivering successful projects and enjoy working with a team to
+            bring ideas to life. I am able to manage multiple tasks and
+            priorities, and always strive to exceed expectations by delivering
+            top-quality work on time and within budget. My strong leadership
+            skills enable me to guide and mentor junior developers, ensuring
+            that projects are completed efficiently and effectively. With my
+            combination of technical expertise, strong interpersonal skills, and
+            leadership qualities, I am confident that I can make a valuable
+            contribution to any team and drive projects to success.
           </p>
           <a
             href="https://www,google.com"
