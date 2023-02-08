@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import SectionTitles from "./SectionTitles";
 import { useHoverEffect } from "../hooks/useHoverEffect";
-
+import { useProjectLeftRightReveal } from "../hooks/gsap";
 const data = {
   img1: "https://res.cloudinary.com/dcgreqowu/image/upload/v1675811157/pp-test/hero-3_dnh0se.jpg",
   img2: "https://res.cloudinary.com/dcgreqowu/image/upload/v1675811135/pp-test/hero-4_fjlu8o.jpg",
@@ -9,7 +9,11 @@ const data = {
 
 const About = () => {
   const aboutLeftRef = useRef(null);
+  const aboutRightRef = useRef(null);
 
+  const aboutRefs = [aboutLeftRef, aboutRightRef];
+
+  useProjectLeftRightReveal(aboutRefs);
   useHoverEffect(aboutLeftRef, data.img1, data.img2);
   return (
     <div className="about container mx-auto mt-40" id="about">
@@ -17,7 +21,7 @@ const About = () => {
 
       <div className="about-wrapper mt-40 grid grid-cols-2 gap-20 overflow-hidden">
         <div className="about-left" ref={aboutLeftRef}></div>
-        <div className="about-right">
+        <div className="about-right" ref={aboutRightRef}>
           <p>
             I am Muntsir Fahim. As a versatile Front-End Developer, I bring a
             unique blend of technical proficiency and leadership skills to the

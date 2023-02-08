@@ -1,6 +1,17 @@
+import { useRef } from "react";
 import SectionTitles from "./SectionTitles";
+import { useFormReveal } from "../hooks/gsap";
 
 const Contact = () => {
+  const formRef1 = useRef(null);
+  const formRef2 = useRef(null);
+  const formRef3 = useRef(null);
+  const formRef4 = useRef(null);
+
+  const formRefs = [formRef1, formRef2, formRef3, formRef4];
+
+  useFormReveal(formRefs);
+
   return (
     <div className="contact container mx-auto mt-40">
       <SectionTitles title={"Contact"} />
@@ -13,6 +24,7 @@ const Contact = () => {
             name="fullname"
             required
             className="bg-transparent border py-16 px-28 rounded-full border-white/20 outline-none focus:border-rose-900 duration-500 w-full "
+            ref={formRef1}
           />
         </div>
         <div className="form-control overflow-hidden">
@@ -22,6 +34,7 @@ const Contact = () => {
             name="email"
             required
             className="bg-transparent border py-16 px-28 rounded-full border-white/20 outline-none focus:border-rose-900 duration-500 w-full "
+            ref={formRef2}
           />
         </div>
         <div className="form-control overflow-hidden">
@@ -32,6 +45,7 @@ const Contact = () => {
             rows="1"
             cols="30"
             className="bg-transparent border py-16 px-28 rounded-full border-white/20 outline-none focus:border-rose-900 duration-500 w-full  resize-none"
+            ref={formRef3}
           />
         </div>
         <div className="form-control overflow-hidden">
@@ -39,6 +53,7 @@ const Contact = () => {
             type="submit"
             value="Send messege"
             className="uppercase bg-transparent border py-16 px-28 rounded-full border-white/20  hover:bg-rose-400/20 hover:border-rose-400/20 duration-500 w-full "
+            ref={formRef4}
           />
         </div>
       </form>
