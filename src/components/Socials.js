@@ -10,7 +10,7 @@ const data = [
   {
     id: 2,
     title: "Twitter",
-    url: "https://wwww.google.com",
+    url: "https://twitter.com/muntasir6785",
   },
   {
     id: 3,
