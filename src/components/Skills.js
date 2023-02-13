@@ -10,7 +10,7 @@ const data = [
   { id: 3, skill: "Bootstrap" },
   { id: 4, skill: "tailwind CSS" },
   { id: 5, skill: "javascript" },
-  { id: 6, skill: "Rect.js" },
+  { id: 6, skill: "React.js" },
   { id: 7, skill: "React Router" },
   { id: 8, skill: "Redux" },
   { id: 9, skill: "REdux Toolkit" },
