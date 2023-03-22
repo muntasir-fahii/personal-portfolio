@@ -9,7 +9,7 @@ const data = [
     img2: "https://res.cloudinary.com/dcgreqowu/image/upload/v1679414725/pp-test/Untitled_design_2_ny8r6v.png",
     description:
       "This is a project management web app that allows users to add, update, and delete projects. It's built using Node.js, Express.js, React.js, and Tailwind CSS, and includes a signup and login system. Users can manage their projects easily through a user-friendly interface, and project data is stored securely in a database.",
-    tools: ["react.js", "javascript", "tailwind-css", "css"],
+    tools: ["express.js", "mongodb", , "react-router", "tailwind-css", "css"],
     liveLink: "https://applima.netlify.app",
     frontEndLink: "https://github.com/muntasir-fahii/applima-client",
     backendLink: "https://github.com/muntasir-fahii/applima-server",
