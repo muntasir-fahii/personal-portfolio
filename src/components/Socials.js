@@ -9,6 +9,11 @@ const data = [
   },
   {
     id: 2,
+    title: "Linkedin",
+    url: "https://www.linkedin.com/in/muntasir-fahim-379260267/",
+  },
+  {
+    id: 2,
     title: "Twitter",
     url: "https://twitter.com/muntasir6785",
   },

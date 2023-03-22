@@ -43,6 +43,16 @@ const Project = ({ project }) => {
           >
             Front-end code
           </a>
+          {project.backendLink && (
+            <a
+              href={project.backendLink}
+              target="_blank"
+              rel="noreferrer"
+              className="uppercase py-8 px-14 border border-white/20 rounded-full hover:bg-rose-400/20 hover:border-rose-400/20 duration-500"
+            >
+              Back-end code
+            </a>
+          )}
         </div>
       </div>
       <div

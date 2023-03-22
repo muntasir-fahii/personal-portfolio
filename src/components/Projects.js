@@ -4,6 +4,18 @@ import SectionTitles from "./SectionTitles";
 const data = [
   {
     id: 1,
+    title: "APPLIMA-the project manager app",
+    img1: "https://res.cloudinary.com/dcgreqowu/image/upload/v1679414713/pp-test/Untitled_design_1_mgsios.png",
+    img2: "https://res.cloudinary.com/dcgreqowu/image/upload/v1679414725/pp-test/Untitled_design_2_ny8r6v.png",
+    description:
+      "This is a project management web app that allows users to add, update, and delete projects. It's built using Node.js, Express.js, React.js, and Tailwind CSS, and includes a signup and login system. Users can manage their projects easily through a user-friendly interface, and project data is stored securely in a database.",
+    tools: ["react.js", "javascript", "tailwind-css", "css"],
+    liveLink: "https://applima.netlify.app",
+    frontEndLink: "https://github.com/muntasir-fahii/applima-client",
+    backendLink: "https://github.com/muntasir-fahii/applima-server",
+  },
+  {
+    id: 2,
     title: "TO-DO-APP",
     img1: "https://res.cloudinary.com/dcgreqowu/image/upload/v1675853296/pp-test/to-do-2_gnlshq.jpg",
     img2: "https://res.cloudinary.com/dcgreqowu/image/upload/v1675853285/pp-test/to-do-1_ift3qd.jpg",
@@ -14,7 +26,7 @@ const data = [
     frontEndLink: "https://github.com/muntasir-fahii/to-do-app",
   },
   {
-    id: 2,
+    id: 3,
     title: "Tech Alpha-An e-commerce webiste",
     img1: "https://res.cloudinary.com/dcgreqowu/image/upload/v1675853303/pp-test/alpha-1_pnv2ih.jpg",
     img2: "https://res.cloudinary.com/dcgreqowu/image/upload/v1675853306/pp-test/alpha-2_c5lg0x.jpg",
@@ -23,17 +35,6 @@ const data = [
     tools: ["react.js", "redux", "redux-toolkit", "javascript", "gsap", "css"],
     liveLink: "https://tech-alpha-fs.netlify.app",
     frontEndLink: "https://github.com/muntasir-fahii/tech-alpha-fs",
-  },
-  {
-    id: 3,
-    title: "Food-Verse- A Food court Webiste",
-    img1: "https://res.cloudinary.com/dcgreqowu/image/upload/v1675853311/pp-test/food-1_zjw3aw.jpg",
-    img2: "https://res.cloudinary.com/dcgreqowu/image/upload/v1675853317/pp-test/food-2_jwbsez.jpg",
-    description:
-      "A food court website built using React.js, Redux, Redux Toolkit, GSAP, and Tailwind CSS is a modern and dynamic platform for discovering and ordering food from a variety of restaurants. With React.js for building user interfaces, Redux for managing state, Redux Toolkit for simplifying the setup and usage of Redux, GSAP for adding animations, and Tailwind CSS for styling, this website offers a seamless experience for users to browse menus, place orders, and track delivery. The combination of these technologies results in a fast, responsive, and visually appealing food court website.",
-    tools: ["react", "javascript", "css", "html"],
-    liveLink: "https://food-verse-fs.netlify.app",
-    frontEndLink: "https://github.com/muntasir-fahii/food-verse-fs",
   },
 ];
 
