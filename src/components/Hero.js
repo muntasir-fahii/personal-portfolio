@@ -4,10 +4,12 @@ import { useImageReveal } from "../hooks/gsap";
 import { useHeadlineReveal } from "../hooks/gsap";
 
 const data = {
-  img1: "https://res.cloudinary.com/dcgreqowu/image/upload/v1675713433/pp-test/hero-1_f8huel.jpg",
+  img1: "https://res.cloudinary.com/dcgreqowu/image/upload/v1680809415/Untitled_design_3_nlvxaq.png",
 
-  img2: "https://res.cloudinary.com/dcgreqowu/image/upload/v1675713385/pp-test/hero-2_zydqmp.jpg",
+  img2: "https://res.cloudinary.com/dcgreqowu/image/upload/v1675713433/pp-test/hero-1_f8huel.jpg",
 };
+
+// https://res.cloudinary.com/dcgreqowu/image/upload/v1675713385/pp-test/hero-2_zydqmp.jpg
 
 const Hero = () => {
   const heroImageRef = useRef(null);

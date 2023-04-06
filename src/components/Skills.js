@@ -13,10 +13,14 @@ const data = [
   { id: 6, skill: "React.js" },
   { id: 7, skill: "React Router" },
   { id: 8, skill: "Redux" },
-  { id: 9, skill: "REdux Toolkit" },
+  { id: 9, skill: "Redux Toolkit" },
   { id: 10, skill: "Axios" },
   { id: 11, skill: "GSAP" },
   { id: 12, skill: "Firebase" },
+  { id: 13, skill: "Express.js" },
+  { id: 14, skill: "MongoDB" },
+  { id: 15, skill: "Next.js" },
+  { id: 16, skill: "WebGL" },
 ];
 
 const Skills = () => {
