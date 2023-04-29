@@ -4,23 +4,19 @@ import { useSkillLineReveal, useSkillTextReveal } from "../hooks/gsap";
 const data = [
   {
     id: 1,
-    skill: "HTML",
+    skill: "Next.js",
   },
-  { id: 2, skill: "CSS" },
-  { id: 3, skill: "Bootstrap" },
-  { id: 4, skill: "tailwind CSS" },
+  { id: 2, skill: "Express.js" },
+  { id: 3, skill: "React.js" },
+  { id: 4, skill: "MongoDB" },
   { id: 5, skill: "javascript" },
-  { id: 6, skill: "React.js" },
-  { id: 7, skill: "React Router" },
+  { id: 6, skill: "Axios" },
+  { id: 7, skill: "Firebase" },
   { id: 8, skill: "Redux" },
-  { id: 9, skill: "Redux Toolkit" },
-  { id: 10, skill: "Axios" },
-  { id: 11, skill: "GSAP" },
-  { id: 12, skill: "Firebase" },
-  { id: 13, skill: "Express.js" },
-  { id: 14, skill: "MongoDB" },
-  { id: 15, skill: "Next.js" },
-  { id: 16, skill: "WebGL" },
+  { id: 9, skill: "Daisy UI" },
+  { id: 10, skill: "Node.js" },
+  { id: 11, skill: "JWT" },
+  { id: 12, skill: "Vite.js" },
 ];
 
 const Skills = () => {
