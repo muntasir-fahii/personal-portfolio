@@ -19,8 +19,11 @@ const About = () => {
     <div className="about container mx-auto mt-40" id="about">
       <SectionTitles title={"About"} />
 
-      <div className="about-wrapper mt-40 grid grid-cols-2 gap-20 overflow-hidden">
-        <div className="about-left" ref={aboutLeftRef}></div>
+      <div className="about-wrapper mt-40 grid grid-cols-1 lg:grid-cols-2 gap-20 overflow-hidden">
+        <div
+          className="about-left sm:self-center md:self-start"
+          ref={aboutLeftRef}
+        ></div>
         <div className="about-right" ref={aboutRightRef}>
           <p>
             I am Muntsir Fahim. As a versatile Front-End Developer, I bring a
@@ -47,7 +50,7 @@ const About = () => {
             contribution to any team and drive projects to success.
           </p>
           <a
-            href="https://docs.google.com/document/d/1jxZfuiL4ihGCugl8t2lpjAAY93otel9mi0ooSBsxD7g/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1C1UtPCmrjxSyAeUQKkcIEgmx8K7S4czbI9opmQoF09g/edit?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="inline-block mt-10 uppercase py-8 px-14 border border-white/20 rounded-full hover:bg-rose-400/20 hover:border-rose-400/20 duration-500"

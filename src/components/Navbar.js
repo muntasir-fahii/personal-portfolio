@@ -27,7 +27,7 @@ const Navbar = ({ footerNav }) => {
     <nav
       className={`flex justify-between container mx-auto ${
         footerNav ? "mt-40" : "mt-20"
-      } uppercase`}
+      } uppercase `}
     >
       <div>
         <HashLink smooth to="#home" className="link-item" ref={link1ref}>

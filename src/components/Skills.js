@@ -9,14 +9,18 @@ const data = [
   { id: 2, skill: "Express.js" },
   { id: 3, skill: "React.js" },
   { id: 4, skill: "MongoDB" },
-  { id: 5, skill: "javascript" },
+  { id: 5, skill: "Prisma" },
   { id: 6, skill: "Axios" },
   { id: 7, skill: "Firebase" },
   { id: 8, skill: "Redux" },
   { id: 9, skill: "Daisy UI" },
-  { id: 10, skill: "Node.js" },
-  { id: 11, skill: "JWT" },
-  { id: 12, skill: "Vite.js" },
+  { id: 10, skill: "JWT" },
+  { id: 11, skill: "GSAP" },
+  { id: 12, skill: "Node.js" },
+  { id: 13, skill: "javascript" },
+  { id: 14, skill: "Bootstrap" },
+  { id: 15, skill: "CSS" },
+  { id: 16, skill: "HTML" },
 ];
 
 const Skills = () => {
@@ -34,7 +38,7 @@ const Skills = () => {
     <div className="skills container mx-auto mt-40" id="skills">
       <SectionTitles title={"Skills"} />
 
-      <div className="skills-wrapper grid grid-cols-2 gap-10 mt-40">
+      <div className="skills-wrapper grid grid-cols-1 sm:grid-cols-2 gap-10 sm:gap-20 mt-40">
         <ul className="skills-left flex flex-col gap-10">
           {data
             .filter((_, i) => i < Math.floor(data.length / 2))

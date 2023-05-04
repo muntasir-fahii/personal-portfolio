@@ -9,7 +9,7 @@ const Project = ({ project }) => {
   useHoverEffect(projectRightRef, project.img1, project.img2);
   useProjectLeftRightReveal(proejctRefs);
   return (
-    <div className="project grid  grid-cols-5 overflow-hidden">
+    <div className="project grid  grid-cols-1 xl:grid-cols-5 gap-20 overflow-hidden">
       <div
         className="project-left col-span-3 flex flex-col gap-10"
         ref={projectLeftRef}

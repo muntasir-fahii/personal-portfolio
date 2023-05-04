@@ -37,12 +37,12 @@ const Contact = () => {
   useFormReveal(formRefs);
 
   return (
-    <div className="contact container mx-auto mt-40">
+    <div className="contact container mx-auto mt-40 ">
       <SectionTitles title={"Contact"} />
 
       <form
         onSubmit={sendEmail}
-        className="mt-40 grid grid-cols-2 gap-20"
+        className="mt-40 grid grid-cols-1 lg:grid-cols-2 gap-20"
         ref={formRef}
       >
         <div className="form-control overflow-hidden">
